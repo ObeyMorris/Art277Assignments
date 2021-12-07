@@ -1,0 +1,111 @@
+/* header style */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    background-color: #fff;
+}
+
+/* html{
+    font-size: 20px;
+} */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(48, 145, 145);
+    padding: 1%;
+    border: 2px solid green; 
+    text-transform: uppercase;    
+}
+
+.nav-box{
+    display: flex;
+    align-items: center;
+    color: #ffff;
+}
+
+.nav-list{
+    list-style: none;
+}
+
+.nav-item{
+    display: inline-block;
+}
+
+.nav-link{
+    text-decoration: none;
+    padding: 3rem;
+    color: #ffff;
+}
+
+/* Content Section */
+img{
+    width: 100%;
+    height: 400px;
+}
+
+/* footer section */
+.footer{
+    background-color: rgb(48, 145, 145);
+    padding: 1%;
+    text-align: center;
+    color: #ffff;
+}
+
+/* getintouch style */
+.form{
+    background-color: rgb(77, 201, 153);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    padding: 30px;
+    border-collapse: collapse;
+    
+}
+
+input{
+    width: 100%;
+    border: none;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+input[type=textmessage]{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 12px 20px; 
+    margin: 8px 0;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: #20b2aa;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+input[type=submit]:hover{
+    background-color: rgb(22, 216, 206);
+}
+
+.table{
+    background-color: rgb(23, 117, 113);
+}
+
+table{
+    width: 100%;
+}
